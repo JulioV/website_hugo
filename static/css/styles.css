@@ -68,6 +68,11 @@ h5 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
+.card-deck .homepage .card-footer {
+    background-color: #fff;
+    border-style: none;
+}
+
 /* Make cards links */
 .card.homepage a {
     position: absolute;
@@ -75,6 +80,7 @@ h5 {
     height: 100%;
     top: 0;
     left: 0;
+    border-style: none;
     text-decoration: none; /* No underlines on the link */
     z-index: 10; /* Places the link above everything else in the div */
     background-color: #FFF; /* Fix to make div clickable in IE */
