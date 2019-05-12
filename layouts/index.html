@@ -11,7 +11,19 @@
         <div class="col-sm-9 m-0">
             <div class="container m-0">
                 <div class="row mb-4">
-                    {{.Content}}
+                    <div class="col-sm-3 px-auto">
+                        <div class="row no-gutters">
+                            <div class="text-center">
+                                <img alt="Julio's photo" src="{{  (printf `%s%s` `img/` .Params.profile) | absURL}}" class="profile_photo rounded-circle"/>
+                            </div>
+                        </div>
+                        <div class="row no-gutters my-3 d-block d-sm-none">
+                            {{ partial "contact_icons.html" .}}
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        {{.Content | safeHTML}}
+                    </div>
                 </div>
                 <div class="row my-5">
                     {{ partial "news_homepage.html" . }}
@@ -29,7 +41,10 @@
         </div>
         <div class="col-sm-3 m-0">
             <div class="container">
-                <div class="row mx-auto mb-5">
+                <div class="row mx-auto mb-5 d-none d-sm-block">
+                    {{ partial "contact_list.html" .}}
+                </div>
+                <div class="row mx-auto my-5">
                     {{ partial "reviewer.html" . }}
                 </div>
                 <div class="row mx-auto my-5">
@@ -37,8 +52,6 @@
                 </div>
                 <div class="row mx-auto my-5">
                     {{ partial "alumni.html" . }}
-                </div>
-                <div class="row">
                 </div>
             </div>
         </div>

@@ -134,24 +134,38 @@ h5 {
       color: black;
   }
 
+  /* No border between list items */
+  .list-group-item {
+    border:none;
+}
+
   /* Header of list widgets */
   .list-group-item.active{
       color: #333 !important;
       background-color: white !important;
       font-weight: 600;
+      border-bottom-style: solid !important;
+      border-color: rgb(238, 238, 238);
+      padding-left: 0;
   }
 
   .badge-primary {
-    background-color: #4992d3 !important;
+    background-color: rgb(238, 238, 238) !important;
+    color: #333 !important;
   }
 
-  /* No border between list items */
-  .list-group-item {
-      border:none;
+
+  .profile_photo {
+    max-width:80%;
+    height: auto;
   }
 
-  /* Border around list items */
-  .list-group {
-    border-color: lightgray !important;
-    border-style: solid;
+  .inline_svg {
+    display: grid;
+    width: 1.35rem;
+    height:100%;
+  }
+
+  .inline_svg:hover {
+    color: #4992d3 !important;
   }
