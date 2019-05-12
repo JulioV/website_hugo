@@ -3,7 +3,57 @@ languageCode = "en-us"
 title = "Julio Vega"
 
 [params]
-  mainSections = ["news", "outreach"]
+  mainSections = ["news", "presentations", "projects", "publications"]
+
+  [[params.reviews]]
+  url = "https://chi2019.acm.org/"
+  name = "ACM CHI 2019"
+  times = "2"
+
+  [[params.reviews]]
+  url = "https://imwut.acm.org/"
+  name = "ACM IMWUT 2018"
+  times = "1"
+
+  [[params.reviews]]
+  url = "https://www.journals.elsevier.com/international-journal-of-human-computer-studies"
+  name = "IJHCS 2017"
+  times = "1"
+
+  [[params.alumni]]
+  name = "Huichuan Liu (distinction)"
+
+  [[params.alumni]]
+  name = "Fanqi Meng"
+
+  [[params.alumni]]
+  name = "Heng Zhang"
+
+  [[params.teaching]]
+  url = "https://studentnet.cs.manchester.ac.uk/ugt/2014/COMP33512/syllabus/"
+  name = "User Experience (UX)"
+  times = "4"
+
+  [[params.teaching]]
+  url = "http://studentnet.cs.manchester.ac.uk/syllabus/?code=COMP16121"
+  name = "Java I"
+  times = "3"
+
+  [[params.teaching]]
+  url = "https://studentnet.cs.manchester.ac.uk/ugt/COMP16212/syllabus/"
+  name = "Java II"
+  times = "2"
+
+  [[params.teaching]]
+  url = "http://studentnet.cs.manchester.ac.uk/syllabus/?code=COMP38120&year=2016"
+  name = "Documents, Services and Data on the Web"
+  times = "1"
+
+  [[params.teaching]]
+  url = "http://studentnet.cs.manchester.ac.uk/syllabus/?code=COMP26120"
+  name = "Algorithms and Imperative Programming"
+  times = "1"
+  
 
 sectionPagesMenu = "main"
 [menu]

@@ -133,3 +133,25 @@ h5 {
   a.link_black {
       color: black;
   }
+
+  /* Header of list widgets */
+  .list-group-item.active{
+      color: #333 !important;
+      background-color: white !important;
+      font-weight: 600;
+  }
+
+  .badge-primary {
+    background-color: #4992d3 !important;
+  }
+
+  /* No border between list items */
+  .list-group-item {
+      border:none;
+  }
+
+  /* Border around list items */
+  .list-group {
+    border-color: lightgray !important;
+    border-style: solid;
+  }

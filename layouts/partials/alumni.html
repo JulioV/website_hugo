@@ -1,0 +1,8 @@
+<ul class="list-group mx-auto col-sm-10 px-0">
+  <a href="#" class="list-group-item list-group-item-action active disabled">
+  MSc Co-Supervisor Alumni
+  </a>
+  {{ range .Site.Params.alumni}}
+    <li class="list-group-item">{{.name}}</li>
+  {{end}}
+</div>

@@ -1,0 +1,12 @@
+<div class="list-group mx-auto col-sm-10 px-0">
+  <a href="#" class="list-group-item list-group-item-action active disabled d-flex justify-content-between align-items-center">
+  <span>Teaching Assistant</span>
+  <span>(terms)</span>
+  </a>
+  {{ range .Site.Params.teaching}}
+    <a href="{{.url}}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+    <span class="mr-3">{{.name}}</span>
+    <span class="badge badge-primary badge-pill">{{.times}}</span>
+    </a>    
+  {{end}}
+</div>
