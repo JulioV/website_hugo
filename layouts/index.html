@@ -3,14 +3,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{{ partial "header.html" . }}
 	<body>
-    <div class="row homepage-navbar">
+    <div class="row homepage-navbar mb-5">
         {{ partial "nav.html" . }}
     </div>
     <div class="row py-4 homepage-content">
 
-        <div class="col-sm-9 m-0">
-            <div class="container m-0">
-                <div class="row mb-4">
+        <div class="col-sm-9 m-0 p-3">
+            <div class="container m-0 p-0">
+                <div class="row mb-5">
                     <div class="col-sm-3 px-auto">
                         <div class="row no-gutters">
                             <div class="text-center">
@@ -39,8 +39,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 m-0">
-            <div class="container">
+        <div class="col-sm-3 m-0 p-3">
+            <div class="container m-0 p-0">
                 <div class="row mx-auto mb-5 d-none d-sm-block">
                     {{ partial "contact_list.html" .}}
                 </div>

@@ -25,15 +25,14 @@ h2 {
     text-align: center;
     font-weight: 700;
     width: 100%;
-    
 }
 
 .h2-homepage {
     border-bottom-style: solid;
     border-color: rgb(238, 238, 238);
     text-align: left;
-    margin-bottom: 1.2em;
-    padding-bottom: 0.5em;
+    margin: 1.5rem 0 1.5rem 0;
+    padding-bottom: 0.5rem;
 }
 
 h3 {
@@ -117,7 +116,7 @@ h5 {
 
 .homepage-content, .homepage-navbar,
 .list-content, .list-navbar {
-    max-width:1500px;
+    max-width:1400px;
     margin: 0 auto 0 auto;
 }
 
@@ -172,6 +171,7 @@ h5 {
     height:100%;
   }
 
-  .inline_svg:hover {
+  .inline_svg:hover,
+  .list-group-item:hover {
     color: #4992d3 !important;
   }
