@@ -1,6 +1,7 @@
 {{ .context.Scratch.Set "currentyear" 0 }}
 {{ $class := .class}}
-<h2 class="mt-5">{{.title}}</h2>
+<div class="mb-5">
+<h2>{{.title}}</h2>
 
 {{ range (where .context.Pages "Params.type" $class) }}
     <div class="card mx-auto my-0 border-0" style="max-width: 1000px;">
@@ -26,3 +27,5 @@
     </div>
     </div>
 {{ end }}
+
+</div>
