@@ -1,0 +1,14 @@
+---
+title: "Symptom Knowledge in Parkinson’s (SKIP)"
+subtitle: "Parkinson's UK PPI Training event"
+description: "During a Patient and Public Involvement (PPI) training event organised by Parkinson's UK, <a target='_blank' href='https://www.researchgate.net/profile/Sam_Couth'> Sam Couth </a> and I presented the progress of the SKIP project (my PhD research is part of it) to people with Parkinson's and  researchers from different backgrounds"
+venue: "University of Manchester"
+venueLink: "https://apps.bmh.manchester.ac.uk/applications/anon/announcement.aspx?Id=IzGwIByplEmPDpMbGZl-1w"
+date: "2016-09-16"
+link: ""
+slides: ""
+thumbnail: "skip.png"
+thumbnailAlt: "skip logo"
+type: "outreach"
+anchor: "ppiUK"
+---

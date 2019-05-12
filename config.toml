@@ -1,0 +1,40 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Julio Vega"
+
+[params]
+  mainSections = ["news", "outreach"]
+
+sectionPagesMenu = "main"
+[menu]
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 2
+
+    [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+
+    [[menu.main]]
+    identifier = "presentations"
+    name = "Presentations"
+    url = "/presentations/"
+    weight = 5
+
+    [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+    

@@ -1,0 +1,12 @@
+---
+title: "Using Web Interaction to Monitor Parkinson's Disease Progression through Behavioural Inferences on the Web"
+authors: "J. Vega"
+location: "Web for All Conference 2016 (PhD Symposium)"
+year: "2016"
+date: "2016-04-06"
+link: "https://doi.org/10.1145/2899475.2899502"
+authorLink: "https://www.researchgate.net/publication/305648812_Using_web_interaction_to_monitor_parkinson's_disease_progression_through_behavioural_inferences_on_the_web"
+subtitle: "Paper"
+type: "paper"
+anchor: "w4a"
+---

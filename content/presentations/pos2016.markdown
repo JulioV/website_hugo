@@ -1,0 +1,14 @@
+---
+title: "Pint of Science Festival 2015 &amp; 2016"
+subtitle: "Team Coordinator"
+description: "The PoS festival is an international event where researchers present their work in a relaxed environment (a pub!). I was the team coordinator in the Beautiful Mind and Tech Me Out teams where we organised 6 science talks with 14 scientists and ~300 assistants"
+venue: "Manchester, UK"
+venueLink: "https://pintofscience.co.uk/team/Manchester+Team"
+date: "2016-05-23"
+link: "https://pintofscience.co.uk/city/manchester"
+slides: ""
+thumbnail: "pos.png"
+thumbnailAlt: "pint of science logo"
+type: "outreach"
+anchor: "pos2016"
+---

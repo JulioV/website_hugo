@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{{ partial "header.html" . }}
+	<body>
+    <div class="row list-navbar">
+        {{ partial "nav.html" . }}
+    </div>
+    <div class="row py-4 list-content">
+
+        <div class="col-sm-12 m-0">
+            <h2>{{.Title}}</h2>
+            
+            {{ range .Pages }}
+                
+                <div class="card mx-auto my-5 border-0" style="max-width: 1000px;">
+                <a id="{{.Params.anchor}}"></a>
+                <div class="row no-gutters border-0">
+                    <div class="col-md-4 mx-auto my-auto">
+                    <img src="{{ (printf `%s%s` `img/` .Params.thumbnail) | absURL }}" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h3>{{ .Params.title}}</h3>
+                        <h4>{{ .Params.subtitle}}</h4>
+                        <h5>{{ .Params.location}}</h5>
+                        <p class="card-text">{{ .Params.description | safeHTML }}</p>
+                        {{ if ne .Params.slidesLink nil }}
+                            <a target="_blank" href="{{.Params.slidesLink}}">Slides</a>
+                        {{end}}
+                        <p class="card-text"><small class="text-muted">{{ dateFormat "January 2006" .Params.date }}</small></p>
+
+                    </div>
+                    </div>
+                </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+	</body>
+</html>

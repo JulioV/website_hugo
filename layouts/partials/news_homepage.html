@@ -1,0 +1,10 @@
+{{ $pages := where site.RegularPages "Type" "in" (slice "news") }}
+<h2 class="h2-homepage">Latest news</h2>
+<div class="container">
+    <div class="card-deck">
+        {{ range first 4 ((where (sort $pages "Params.date" "desc") "Params.featured" "true")) }}
+            {{ partial "card.html" .}}
+        {{ end }}
+        
+    </div>
+</div>

@@ -1,0 +1,14 @@
+---
+title: "A technological solution for monitoring Parkinson’s disease: A patient-based perspective on necessity, usability and acceptability"
+authors: "S. Couth, E. Poliakoff, J. Vega, C. Jay, S. Harper, R. Almutiry, T.F. Cootes, A.M. Ramsay, S.A. Kotz"
+location: "20th International Congress of Parkinson's Disease and Movement Disorders"
+date: "2016-06-22"
+year: "2016"
+link: "http://www.mdsabstracts.org/abstract/a-technological-solution-for-monitoring-parkinsons-disease-a-patient-based-perspective-on-necessity-usability-and-acceptability/"
+authorLink: "http://www.mdsabstracts.org/abstract/a-technological-solution-for-monitoring-parkinsons-disease-a-patient-based-perspective-on-necessity-usability-and-acceptability/"
+subtitle: "Abstract"
+type: "abstract"
+typeLabel: "Abstract"
+repository: "MDS"
+anchor: "mdsabstract"
+---

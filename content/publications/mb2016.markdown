@@ -1,0 +1,13 @@
+---
+title: "Monitoring Parkinson's Disease Progression Using Behavioural Inferences and Smartphones"
+authors: "J. Vega, M. Vigo, C. Jay, S. Harper"
+location: "Measuring Behavior 2016"
+date: "2016-05-25"
+year: "2016"
+link: "http://www.measuringbehavior.org/sites/default/files/u15/MB2016%20Proceedings%20Preprint.pdf"
+authorLink: "https://juliovega.info/downloads/mb2016.pdf"
+subtitle: "Abstract"
+type: "abstract"
+typeLabel: "Extended Abstract"
+anchor: "measuringbehavior"
+---

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{{ partial "header.html" . }}
+	<body>
+    <div class="row homepage-navbar">
+        {{ partial "nav.html" . }}
+    </div>
+    <div class="row py-4 homepage-content">
+
+        <div class="col-sm-12 m-0">
+            {{.Content}}
+        </div>
+    </div>
+	</body>
+</html>

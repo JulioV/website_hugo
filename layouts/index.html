@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{{ partial "header.html" . }}
+	<body>
+    <div class="row homepage-navbar">
+        {{ partial "nav.html" . }}
+    </div>
+    <div class="row py-4 homepage-content">
+
+        <div class="col-sm-9 m-0">
+            <div class="container m-0">
+                <div class="row mb-4">
+                    {{.Content}}
+                </div>
+                <div class="row my-5">
+                    {{ partial "news_homepage.html" . }}
+                </div>
+                <div class="row my-5">
+                    {{ partial "publications_homepage.html" . }}
+                </div>
+                <div class="row my-5">
+                    {{ partial "outreach_homepage.html" . }}
+                </div>
+                <div class="row my-5">
+                    {{ partial "projects_homepage.html" . }}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 m-0">
+            <div class="container">
+                <div class="row">
+                    Links
+                </div>
+                <div class="row">
+                    Alumni
+                </div>
+                <div class="row">
+                    Reviewer
+                </div>
+                <div class="row">
+                    Teaching experience
+                </div>
+            </div>
+        </div>
+    </div>
+	</body>
+</html>

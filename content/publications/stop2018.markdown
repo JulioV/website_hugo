@@ -1,0 +1,13 @@
+---
+title: "Mobile-based Monitoring of Parkinson's Disease"
+authors: "E. Kuosmanen, V. Kan, A. Visuri, J. Vega, Y. Nishiyama, A. K. Dey, S. Harper, D. Ferreira"
+document: "Pages 441-448 "
+location: "17th International Conference on Mobile and Ubiquitous Multimedia"
+year: "2018"
+date: "2018-11-25"
+link: "https://doi.org/10.1145/3282894.3289737"
+authorLink: "https://www.researchgate.net/publication/329500673_Mobile-based_Monitoring_of_Parkinson's_Disease"
+subtitle: "Paper"
+type: "paper"
+anchor: "stop2018"
+---

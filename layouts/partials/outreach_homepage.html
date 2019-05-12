@@ -1,0 +1,9 @@
+{{ $pages := where site.RegularPages "Type" "in" (slice "outreach") }}
+<h2 class="h2-homepage">Latest outreach presentations</h2>
+<div class="container">
+    <div class="card-deck">
+        {{ range first 4  (sort $pages "Params.date" "desc")}}
+            {{ partial "card.html" .}}
+        {{ end }}
+    </div>
+</div>

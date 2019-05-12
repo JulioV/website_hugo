@@ -1,0 +1,13 @@
+---
+title: "PaperStream: Encoding Paper Surveys and Questionnaires Automatically"
+authors: " J. Vega, C. Jay, M.Vigo, S. Harper"
+location: "Measuring Behaviour 2018"
+year: "2018"
+date: "2018-06-01"
+link: "http://www.measuringbehavior.org/mb2018/paperstream-0"
+authorLink: "https://juliovega.info/downloads/mb2018.pdf"
+subtitle: "Abstract"
+type: "abstract"
+typeLabel: "Demonstration"
+anchor: "mb2018"
+---

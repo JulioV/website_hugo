@@ -1,0 +1,135 @@
+body{
+    font-family: 'Inter UI', sans-serif;
+    color: #444;
+    border-top: solid #4992d3;
+    border-width: 5px;
+    background-color: #fff;
+    line-height: 1.8;
+    font-size: 14px;
+    padding: 0 5% 0 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1b437e;
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    
+}
+
+.h2-homepage {
+    border-bottom-style: solid;
+    border-color: rgb(238, 238, 238);
+    text-align: left;
+    margin-bottom: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    margin: 5px 0px -5px 0px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+h4 {
+    margin: 10px 0px 5px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #D66000;
+}
+
+h5 {
+    margin: 5px 0px 5px 0px;
+    font-size: 13px;
+    font-style: italic;
+    color: #333;
+}
+
+/* Only show one card per section on mobile */
+@media (max-width: 576px) {
+    .card-deck .homepage:not(:first-child) {
+        display: none;
+    }
+}
+
+/* Card hover shadow */
+.card-deck .homepage:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+/* Make cards links */
+.card.homepage a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+ }
+
+/* Navbar active link */
+.nav-item.active,
+.nav-item.active .nav-link {
+    background-color: #4992d3;
+    color: #fff !important;
+
+}
+
+/* Navbar hover link */
+.nav-item:hover,
+.nav-item:hover .nav-link{
+    color: #fff !important;
+    background-color: #D66000 !important;
+}
+
+/* Navbar border */
+.navbar-nav {
+    border-style: solid;
+    border-color: lightgray;
+}
+
+/* Name */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.homepage-content, .homepage-navbar,
+.list-content, .list-navbar {
+    max-width:1500px;
+    margin: 0 auto 0 auto;
+}
+
+.publication-title{
+    color:#1b437e;
+    line-height:1.4;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  .publication-authors{
+    font-size: 14px;
+  }
+  
+  .publication-venue{
+    font-size: 14px;
+  }
+
+  a.link_black {
+      color: black;
+  }

@@ -1,0 +1,15 @@
+<div class="card text-center shadow-sm rounded homepage">
+    <a href="/{{.Section}}/#{{.Params.anchor}}"></a>
+
+    {{if isset .Params "thumbnail"}}
+    <img src="img/{{ .Params.thumbnail }}" class="card-img-top" alt=".Params.alt">
+    {{ end }}
+    <div class="card-body">
+        <h3 class="card-title">{{ .Params.title | truncate 70 }}</h3>
+        <h4 class="card-subtitle">{{ .Params.subtitle | truncate 70 }}</h4>
+        <h5 class="card-text text-muted">{{ .Params.location | truncate 70 }}</h5>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">{{ dateFormat "January 2006" .Params.date }}</small>
+    </div>
+</div>

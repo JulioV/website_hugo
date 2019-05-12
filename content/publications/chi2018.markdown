@@ -1,0 +1,13 @@
+---
+title: "Back to Analogue: Self-Reporting for Parkinson’s Disease"
+authors: "J. Vega, S. Couth, E. Poliakoff, S. Kotz, M. Sullivan, C. Jay, M. Vigo and S. Harper"
+document: "Volume 19, No 6"
+location: "ACM CHI 2018"
+year: "2018"
+date: "2018-04-22"
+link: "https://doi.org/10.1145/3173574.3173648"
+authorLink: "https://www.researchgate.net/publication/322636422_Back_to_Analogue_Self-Reporting_for_Parkinson's_Disease"
+type: "paper"
+subtitle: "Paper"
+anchor: "chi2018"
+---

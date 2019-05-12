@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{{ partial "header.html" . }}
+	<body>
+    <div class="row list-navbar">
+        {{ partial "nav.html" . }}
+    </div>
+    <div class="row py-4 list-content">
+
+        <div class="col-sm-12 m-0">
+            {{ partial "publication_type.html" (dict "context" . "class" "paper" "title" "Papers") }}
+            {{ partial "publication_type.html" (dict "context" . "class" "abstract" "title" "Extended Abstracts, Technical Reports, Posters, and Demos") }}
+        </div>
+    </div>
+	</body>
+</html>

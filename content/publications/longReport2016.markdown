@@ -1,0 +1,15 @@
+---
+title: "Parkinson's Disease Monitoring Using Behavioural Inferences and Smartphones"
+authors: "J. Vega"
+document: "Transfer Report. First year PhD"
+location: " Computer Science School of The University of Manchester"
+venueLink: "www.cs.manchester.ac.uk/"
+date: "2015-09-01"
+year: "2015"
+link: "https://doi.org/10.5281/zenodo.50518 "
+authorLink: "https://www.researchgate.net/publication/301649854_Parkinson's_Disease_monitoring_using_behavioural_inferences_and_smartphones"
+subtitle: "Abstract"
+type: "abstract"
+typeLabel: "Technical Report"
+anchor: "longReport"
+---

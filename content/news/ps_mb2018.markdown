@@ -1,0 +1,10 @@
+---
+title: "Demo PaperStream"
+subtitle: "Measuring Behaviour 2018"
+location: "Manchester, UK"
+date: "2018-06-06"
+description: "I did a demo and a presentation about PaperStream in the <a href='https://www.measuringbehavior.org/mb2018/'>Measuring Behaviour 2018</a> conference held in Manchester. It was nice to see interest from researchers and professionals from different domains to not only automatically encode diaries, but also surveys and exams."
+alt: "Measuring Behaviour 2018 logo"
+thumbnail: "mb2018.png"
+anchor: "ps_mb2018"
+---

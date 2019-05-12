@@ -1,0 +1,13 @@
+---
+title: "Monitoring Parkinson's Disease Progression Using Behavioural Inferences, Mobile Devices and Web Technologies"
+authors: "J. Vega"
+document: "Proceedings of the 25th International Conference Companion on World Wide Web"
+location: "ACM WWW 2016 (PhD Symposium)"
+year: "2016"
+date: "2016-04-06"
+link: "https://doi.org/10.1145/2872518.2888598"
+authorLink: "https://www.researchgate.net/publication/301649312_Monitoring_Parkinson's_Disease_Progression_Using_Behavioural_Inferences_Mobile_Devices_and_Web_Technologies"
+subtitle: "Paper"
+type: "paper"
+anchor: "www"
+---
