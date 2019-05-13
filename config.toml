@@ -1,6 +1,7 @@
 baseURL = "http://juliovega.info"
 languageCode = "en-us"
 title = "Julio Vega"
+enableRobotsTXT = true
 
 [params]
   mainSections = ["news", "presentations", "projects", "publications"]
