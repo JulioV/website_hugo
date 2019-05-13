@@ -7,6 +7,6 @@ date: "2017-10-05"
 year: "2017"
 slidesLink: "https://www.researchgate.net/publication/320272430_Monitoring_and_Managing_Parkinson%27s_Using_Digital_and_Analogue_Technologies"
 anchor: "lancaster"
-thumbnail: "digitalAndAnalogue.png"
+thumbnail: "digitalAndAnalogue.jpg"
 thumbnailAlt: "First slide of presentation"
 ---

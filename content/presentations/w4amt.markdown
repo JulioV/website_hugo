@@ -8,6 +8,6 @@ date: "2016-04-04"
 year: "2016"
 slidesLink: "https://www.researchgate.net/publication/310139749_Using_Web_Interaction_to_Monitor_Parkinson%27s_Disease_Progression_through_Behavioural_Inferences"
 anchor: "w4aMT"
-thumbnail: "w4aPresentation.png"
+thumbnail: "w4aPresentation.jpg"
 thumbnailAlt: "First slide of presentation"
 ---

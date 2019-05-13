@@ -8,6 +8,6 @@ date: "2016-11-03"
 year: "2016"
 slidesLink: "https://www.researchgate.net/publication/310142582_Monitoring_Parkinson%27s_Disease_Using_Smartphones_and_Behavioural_Inferences?ev=prf_pub"
 anchor: "csrs"
-thumbnail: "cssymposium.png"
+thumbnail: "cssymposium.jpg"
 thumbnailAlt: "First slide of presentation"
 ---

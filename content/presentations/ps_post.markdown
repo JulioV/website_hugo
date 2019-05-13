@@ -7,7 +7,7 @@ venueLink: "https://www.software.ac.uk/blog/2018-08-02-paperstream-software-coll
 date: "2018-08-02"
 link: ""
 slides: ""
-thumbnail: "ssi.png"
+thumbnail: "ssi.jpg"
 thumbnailAlt: "Software Sustainability Institute logo"
 type: "outreach"
 anchor: "ssi2018"

@@ -7,7 +7,7 @@ venueLink: "https://apps.bmh.manchester.ac.uk/applications/anon/announcement.asp
 date: "2016-09-16"
 link: ""
 slides: ""
-thumbnail: "skip.png"
+thumbnail: "skip.jpg"
 thumbnailAlt: "skip logo"
 type: "outreach"
 anchor: "ppiUK"

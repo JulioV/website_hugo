@@ -7,6 +7,6 @@ date: "2018-02-21"
 year: "2018"
 slidesLink: "https://www.researchgate.net/publication/323540345_The_Possibilities_of_Digital_and_Analogue_Technology_in_Parkinson's"
 anchor: "micra"
-thumbnail: "digitalAndAnalogue.png"
+thumbnail: "digitalAndAnalogue.jpg"
 thumbnailAlt: "First slide of presentation"
 ---
