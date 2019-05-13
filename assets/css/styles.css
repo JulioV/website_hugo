@@ -102,12 +102,6 @@ h5 {
     background-color: #D66000 !important;
 }
 
-/* Navbar border */
-.navbar-nav {
-    border-style: solid;
-    border-color: lightgray;
-}
-
 /* Name */
 .navbar-brand {
     font-weight: 600;
