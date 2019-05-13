@@ -1,4 +1,4 @@
-baseURL = "http://juliovega.info"
+baseURL = "https://juliovega.info"
 languageCode = "en-us"
 title = "Julio Vega"
 enableRobotsTXT = true
