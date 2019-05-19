@@ -188,3 +188,15 @@ h5 {
 .view-more a {
     color:#495057;
 }
+
+/* Navigation controls */
+.pagination {
+  margin:0;
+}
+
+.page-link {
+  color: #4992d3;
+}
+.page-item.active .page-link{
+  background-color: #4992d3;
+}
