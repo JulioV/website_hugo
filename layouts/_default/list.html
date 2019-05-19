@@ -24,7 +24,7 @@
                         <h3>{{ .Params.title}}</h3>
                         <h4>{{ .Params.subtitle}}</h4>
                         <h5>{{ .Params.location}}</h5>
-                        <p class="card-text">{{ .Params.description | safeHTML }}</p>
+                        <p class="card-text">{{.Content}}</p>
                         {{ if ne .Params.slidesLink nil }}
                             <a target="_blank" href="{{.Params.slidesLink}}">Slides</a>
                         {{end}}

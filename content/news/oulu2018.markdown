@@ -3,8 +3,8 @@ title: "Research Visit"
 subtitle: "The Center for Ubiquitous Computing"
 location: "Oulu, Finland"
 date: "2018-08-11"
-description: "As part of a two-year collaboration on the <a href='http://ubicomp.oulu.fi/stop-sentient-tracking-of-parkinsons-funded-by-the-academy-of-finland-ict-2023-programme/'>Sentient Tracking Of Parkinson’s (STOP)</a> project, Adj. Prof. Denzil Ferreira invited me for a one-week research sprint to clean and analyse the data collected after the first month of the study. Participants from Oulu and Manchester played a 10-sec balance game, four times a day, in their smartphones while we collected movement data as well as self-reported symptom severity and medication intake. The code for the analysis is written in R and available in this <a href=' https://github.com/JulioV/stop'>repo</a>. The results of the study's first work package that is aiming to explore ways of measuring medication cycles will be published soon."
 thumbnail: "oulu.jpg"
 anchor: "oulu_visit"
 featured: 'true'
 ---
+As part of a two-year collaboration on the [Sentient Tracking Of Parkinson’s (STOP)](http://ubicomp.oulu.fi/stop-sentient-tracking-of-parkinsons-funded-by-the-academy-of-finland-ict-2023-programme/) project, Adj. Prof. Denzil Ferreira invited me for a one-week research sprint to analyse the data collected after the first month of the study. Participants from Oulu and Manchester played a 10-sec balance game, four times a day, in their smartphones while we collected movement data as well as self-reported symptom severity and medication intake. The code for the analysis is written in R and available in this [repo]( https://github.com/JulioV/stop). The results of the study's first work package that is aiming to explore ways of measuring medication cycles will be published soon.
