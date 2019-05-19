@@ -1,0 +1,13 @@
+---
+title: "MSc in Health Data Science"
+subtitle: "Invited Speaker"
+venue: "Manchester, UK"
+venueLink: "https://www.manchester.ac.uk/study/masters/courses/list/10076/msc-health-data-science/?pg=2&unit=IIDS67622&unitYear=all"
+date: "2019-03-05"
+link: ""
+slidesLink: "/downloads/dh2019.pdf"
+thumbnail: "pdh2019.png"
+thumbnailAlt: "First slide of the presentation for MSc in Health Data Science"
+anchor: "pdh2019"
+---
+I shared all the insights I got from the real world deployment of my PhD project for the [Understanding Data and Decision Making](https://www.manchester.ac.uk/study/masters/courses/list/10076/msc-health-data-science/?pg=2&unit=IIDS67622&unitYear=all) module of the [MSc in Health Data Science](https://www.manchester.ac.uk/study/masters/courses/list/10076/msc-health-data-science/) at the University of Manchester.
