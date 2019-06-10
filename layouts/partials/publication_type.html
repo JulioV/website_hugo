@@ -4,27 +4,21 @@
 <h2>{{.title}}</h2>
 
 {{ range (where .context.Pages "Params.type" $class) }}
-    <div class="card mx-auto my-0 border-0" style="max-width: 1000px;">
-    <div class="row no-gutters border-0">
-        <div class="col-md-12">
-        <div class="card-body no-gutters p-2">
-            <a id="{{.Params.anchor}}"></a>
-            {{ if ne ($.context.Scratch.Get "currentyear") .Params.year }}
-                <h2><span class="badge badge-info">{{.Params.year}}</span></h2>
-                {{ $.context.Scratch.Set "currentyear" .Params.year }}
-            {{ end }}
-            <div class="publication-title">{{.Params.title}}</div>
-            <div class="publication-authors">{{.Params.authors | safeHTML}}</div>
-            <div class="publication-venue">
-                {{ if eq $class "abstract"}}
-                    <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
-                {{end}}
-                <a target="_blank" class="link_black" href="{{.Params.link}}">{{.Params.location}}</a>
-                <a style="font-weight:bold" target="_blank" href="{{.Params.authorLink}}">[pdf]</a>
-            </div>
-        </div>
-        </div>
-    </div>
+    {{ if ne ($.context.Scratch.Get "currentyear") .Params.year }}
+        <h2><span class="badge badge-info">{{.Params.year}}</span></h2>
+        {{ $.context.Scratch.Set "currentyear" .Params.year }}
+    {{ end }}
+    <div class="card mx-auto my-4 border-0" style="max-width: 1000px;">
+        <a id="{{.Params.anchor}}"></a>
+        <span class="publication-title">{{.Params.title}}</span>
+        <span class="publication-authors">{{.Params.authors | safeHTML}}</span>
+        <span class="publication-venue">
+            {{ if eq $class "abstract"}}
+                <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
+            {{end}}
+            <a target="_blank" class="link_black" href="{{.Params.link}}">{{.Params.location}}</a>
+            <a style="font-weight:bold" target="_blank" href="{{.Params.authorLink}}">[pdf]</a>
+        </span>
     </div>
 {{ end }}
 

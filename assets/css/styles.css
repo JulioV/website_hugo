@@ -69,6 +69,10 @@ h5 {
 }
 
 /* Card hover shadow */
+.card-deck {
+  margin-bottom: 3rem;
+}
+
 .card-deck .homepage:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
@@ -114,8 +118,7 @@ h5 {
     font-size: 2rem;
 }
 
-.homepage-content, .homepage-navbar,
-.list-content, .list-navbar {
+.homepage-content, .list-content, .navbar {
     max-width:1400px;
     margin: 0 auto 0 auto;
 }
@@ -130,7 +133,7 @@ h2 .badge {
     line-height:1.4;
     font-size: 0.8rem;
     font-weight: 900;
-    margin: 3px auto;
+    margin: 3px 0;
   }
   
   .publication-authors{
@@ -143,8 +146,12 @@ h2 .badge {
 
   a.link_black {
       color: black;
+      text-decoration: underline;
   }
 
+.list-group {
+  margin-bottom: 3rem;
+}
   /* No border between list items */
   .list-group-item {
     border:none;

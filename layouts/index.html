@@ -2,10 +2,8 @@
 <html lang="en-us">
 	{{ partial "header.html" . }}
 	<body>
-    <div class="row homepage-navbar mb-sm-5">
-        {{ partial "nav.html" . }}
-    </div>
-    <div class="row homepage-content">
+    {{ partial "nav.html" . }}
+    <div class="row homepage-content mt-sm-5">
 
         <div class="col-lg-9 m-0 px-3">
             <div class="row my-0">
@@ -23,32 +21,16 @@
                     {{.Content | safeHTML}}
                 </div>
             </div>
-            <div class="row my-4">
                 {{ partial "news_homepage.html" . }}
-            </div>
-            <div class="row my-4">
                 {{ partial "publications_homepage.html" . }}
-            </div>
-            <div class="row my-4">
                 {{ partial "outreach_homepage.html" . }}
-            </div>
-            <div class="row my-4">
                 {{ partial "projects_homepage.html" . }}
-            </div>
         </div>
         <div class="col-lg-3 m-0 px-3">
-            <div class="row mx-auto mb-5 d-none d-sm-block">
                 {{ partial "contact_list.html" .}}
-            </div>
-            <div class="row mx-auto my-5">
                 {{ partial "reviewer.html" . }}
-            </div>
-            <div class="row mx-auto my-5">
                 {{ partial "teaching.html" . }}
-            </div>
-            <div class="row mx-auto my-5">
                 {{ partial "alumni.html" . }}
-            </div>
         </div>
     </div>
     {{ partial "footer.html" .}}
