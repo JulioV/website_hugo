@@ -130,6 +130,7 @@ h2 .badge {
     line-height:1.4;
     font-size: 0.8rem;
     font-weight: 900;
+    margin: 3px auto;
   }
   
   .publication-authors{
