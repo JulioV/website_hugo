@@ -6,7 +6,7 @@
     <div class="row homepage-navbar mb-sm-5">
         {{ partial "nav.html" . }}
     </div>
-    <div class="row py-4 homepage-content">
+    <div class="row homepage-content">
 
         <div class="col-lg-9 m-0 px-3">
             <div class="row my-0">
@@ -24,16 +24,16 @@
                     {{.Content | safeHTML}}
                 </div>
             </div>
-            <div class="row my-5">
+            <div class="row my-4">
                 {{ partial "news_homepage.html" . }}
             </div>
-            <div class="row my-5">
+            <div class="row my-4">
                 {{ partial "publications_homepage.html" . }}
             </div>
-            <div class="row my-5">
+            <div class="row my-4">
                 {{ partial "outreach_homepage.html" . }}
             </div>
-            <div class="row my-5">
+            <div class="row my-4">
                 {{ partial "projects_homepage.html" . }}
             </div>
         </div>

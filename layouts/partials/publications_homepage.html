@@ -2,15 +2,10 @@
 {{ $abstracts := first 4 (where site.RegularPages "Type" "in" (slice "abstract") )}}
 {{ $pages := union $papers $abstracts}}
 
-<h2 class="h2-homepage">Latest publications</h2>
-<div class="container">
-    <div class="card-deck">
-        {{$papers := (sort $pages "Params.date" "desc")}}
-        {{ range first 4 $papers }}
-            {{ partial "card.html" .}}
-        {{ end }}
-    </div>
-    <div class="row justify-content-center mx-auto my-4 view-more">
-        <a href="publications/" >view more publications...</a>
-    </div>
+<h2 class="h2-homepage"><a href="publications/" >Latest publications</a></h2>
+<div class="card-deck">
+    {{$papers := (sort $pages "Params.date" "desc")}}
+    {{ range first 4 $papers }}
+        {{ partial "card.html" .}}
+    {{ end }}
 </div>

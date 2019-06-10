@@ -24,7 +24,7 @@
                             <div class="card-body">
                                 <h3>{{ .Params.title | safeHTML}}</h3>
                                 <h4>{{ .Params.subtitle}}</h4>
-                                <h5>{{ .Params.location}}</h5>
+                                {{if .Params.location }}<h5>{{ .Params.location}}</h5>{{end}}
                                 <div class="card-text text-justify">{{.Content}}</div>
                                 {{ if ne .Params.slidesLink nil }}
                                     <a target="_blank" href="{{.Params.slidesLink}}">Slides</a>

@@ -10,7 +10,7 @@
         <div class="card-body no-gutters p-2">
             <a id="{{.Params.anchor}}"></a>
             {{ if ne ($.context.Scratch.Get "currentyear") .Params.year }}
-                <h2 class="text-left my-2"><span class="badge badge-info text-left">{{.Params.year}}</span></h2>
+                <h2><span class="badge badge-info">{{.Params.year}}</span></h2>
                 {{ $.context.Scratch.Set "currentyear" .Params.year }}
             {{ end }}
             <div class="publication-title">{{.Params.title}}</div>

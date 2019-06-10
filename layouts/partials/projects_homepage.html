@@ -1,12 +1,7 @@
 {{ $pages := where site.RegularPages "Type" "in" (slice "projects") }}
-<h2 class="h2-homepage">Latest projects</h2>
-<div class="container">
-    <div class="card-deck">
-        {{ range first 4  (sort $pages "Params.date" "desc") }}
-            {{ partial "card.html" .}}
-        {{ end }}
-    </div>
-    <div class="row justify-content-center mx-auto my-4 view-more">
-        <a href="projects/" >view more projects...</a>
-    </div>
+<h2 class="h2-homepage"><a href="projects/" >Latest projects</a></h2>
+<div class="card-deck">
+    {{ range first 4  (sort $pages "Params.date" "desc") }}
+        {{ partial "card.html" .}}
+    {{ end }}
 </div>
