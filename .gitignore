@@ -1,4 +1,7 @@
 hugo.exe
+hugo
 resources/
 *.code-workspace
 img_template.svg
+.DS_STORE
+.vscode/
