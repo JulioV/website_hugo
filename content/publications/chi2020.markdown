@@ -1,0 +1,13 @@
+---
+title: "Shaping the Design of Smartphone-based Interventions for Self-harm"
+authors: "M. Honary, B. Bell, S. Clinch, J. Vega, L. Kroll, A. Sefi, R. McNaney"
+document: "document"
+location: "ACM CHI 2020"
+year: "2020"
+date: "2020-03-22"
+link: "https://doi.org/10.1145/3173574.3173648"
+authorLink: "https://psyarxiv.com/eu5pw/"
+type: "paper"
+subtitle: "Paper"
+anchor: "chi2020"
+---

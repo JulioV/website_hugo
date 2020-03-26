@@ -11,6 +11,11 @@ enableRobotsTXT = true
   mainSections = ["news", "presentations", "projects", "publications"]
 
   [[params.reviews]]
+  url = "https://chi2020.acm.org/"
+  name = "ACM CHI 2020"
+  times = "1"
+
+  [[params.reviews]]
   url = "https://chi2019.acm.org/"
   name = "ACM CHI 2019"
   times = "2"

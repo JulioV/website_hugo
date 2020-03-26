@@ -1,0 +1,13 @@
+---
+title: "Challenges of Parkinson's Disease: User Experiences with STOP"
+authors: "E. Kuosmanen, V. Kan, J. Vega, A. Visuri, Y. Nishiyama, A. K. Dey, S. Harper, D. Ferreira"
+document: "Pages 1-11"
+location: "Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services"
+year: "2019"
+date: "2019-10-01"
+link: "https://doi.org/10.1145/3338286.3340133"
+authorLink: "https://www.researchgate.net/publication/336198861_Challenges_of_Parkinson%27s_Disease_User_Experiences_with_STOP"
+subtitle: "Paper"
+type: "paper"
+anchor: "stop2019"
+---

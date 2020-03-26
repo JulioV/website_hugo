@@ -5,3 +5,4 @@ resources/
 img_template.svg
 .DS_STORE
 .vscode/
+public/
