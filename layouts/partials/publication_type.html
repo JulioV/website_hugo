@@ -1,18 +1,14 @@
-{{ .context.Scratch.Set "currentyear" 0 }}
 {{ $class := .class}}
 <div class="mb-5">
-<h2>{{.title}}</h2>
+    <h2>{{.title}}</h2>
 
 {{ range (where .context.Pages "Params.type" $class) }}
-    {{ if ne ($.context.Scratch.Get "currentyear") .Params.year }}
-        <h2><span class="badge badge-info">{{.Params.year}}</span></h2>
-        {{ $.context.Scratch.Set "currentyear" .Params.year }}
-    {{ end }}
     <div class="card mx-auto my-4 border-0" style="max-width: 1000px;">
         <a id="{{.Params.anchor}}"></a>
         <span class="publication-title">{{.Params.title}}</span>
         <span class="publication-authors">{{.Params.authors | safeHTML}}</span>
         <span class="publication-venue">
+            <span class="badge-paperyear">{{.Params.year}}.</span>
             {{ if eq $class "abstract"}}
                 <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
             {{end}}

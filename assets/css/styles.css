@@ -221,3 +221,7 @@ h2 .badge {
 .page-item.active .page-link{
   background-color: #4992d3;
 }
+
+.badge-paperyear{
+  color: #17a2b8;
+}
