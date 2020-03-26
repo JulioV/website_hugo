@@ -8,12 +8,12 @@
         <span class="publication-title">{{.Params.title}}</span>
         <span class="publication-authors">{{.Params.authors | safeHTML}}</span>
         <span class="publication-venue">
-            <span class="badge-paperyear">{{.Params.year}}.</span>
+            <span class="badge badge-primary">{{.Params.year}}</span>
             {{ if eq $class "abstract"}}
                 <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
             {{end}}
-            <a target="_blank" class="link_black" href="{{.Params.link}}">{{.Params.location}}</a>
-            <a style="font-weight:bold" target="_blank" href="{{.Params.authorLink}}">[pdf]</a>
+            <a target="_blank" class="link_black" href="{{.Params.link}}">[{{.Params.location}}]</a>
+            <a target="_blank" class="" href="{{.Params.authorLink}}">[pdf]</a>
         </span>
     </div>
 {{ end }}
