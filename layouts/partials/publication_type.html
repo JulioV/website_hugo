@@ -3,10 +3,10 @@
     <h2>{{.title}}</h2>
 
 {{ range (where .context.Pages "Params.type" $class) }}
-    <div class="card mx-auto my-4 border-0">
+    <div class="card mx-auto my-5 border-0">
         <a id="{{.Params.anchor}}"></a>
         <strong style="color:#6c6c6c">{{.Params.title}}</strong>
-        <span>{{.Params.authors | safeHTML}}</span>
+        <span class="my-1">{{.Params.authors | safeHTML}}</span>
         <span>
             <span class="badge badge-primary">{{.Params.year}}</span>
             {{ if eq $class "abstract"}}
