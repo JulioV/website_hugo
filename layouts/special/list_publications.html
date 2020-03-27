@@ -5,12 +5,13 @@
         <a name="top"></a>    
         {{ partial "nav.html" . }}
         
-        <div class="list-content p-2 mx-auto">
+        <div class="list-content p-2 mx-auto" style="max-width: 1000px;">
             {{ partial "publication_type.html" (dict "context" . "class" "paper" "title" "Papers") }}
             {{ partial "publication_type.html" (dict "context" . "class" "abstract" "title" "Extended Abstracts, Technical Reports, Posters, and Demos") }}
             <div class="text-center w-100">
                 <a href="#top">Back to top</a>
             </div>
         </div>
+        {{ partial "footer.html" .}}
 	</body>
 </html>

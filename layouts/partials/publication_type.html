@@ -3,16 +3,16 @@
     <h2>{{.title}}</h2>
 
 {{ range (where .context.Pages "Params.type" $class) }}
-    <div class="card mx-auto my-4 border-0" style="max-width: 1000px;">
+    <div class="card mx-auto my-4 border-0">
         <a id="{{.Params.anchor}}"></a>
-        <span class="publication-title">{{.Params.title}}</span>
-        <span class="publication-authors">{{.Params.authors | safeHTML}}</span>
-        <span class="publication-venue">
+        <strong style="color:#6c6c6c">{{.Params.title}}</strong>
+        <span>{{.Params.authors | safeHTML}}</span>
+        <span>
             <span class="badge badge-primary">{{.Params.year}}</span>
             {{ if eq $class "abstract"}}
                 <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
             {{end}}
-            <a target="_blank" class="link_black" href="{{.Params.link}}">[{{.Params.location}}]</a>
+            <a target="_blank" class="" href="{{.Params.link}}">[{{.Params.location}}]</a>
             <a target="_blank" class="" href="{{.Params.authorLink}}">[pdf]</a>
         </span>
     </div>

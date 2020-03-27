@@ -4,26 +4,24 @@
 	<body>
         <a name="top"></a>
         {{ partial "nav.html" . }}
-        <div class="list-content mx-auto p-2">
+        <div class="list-content mx-auto p-2" style="max-width: 1000px;">
             <h2>{{.Title}}</h2>
             
             {{ template "partials/pagination.html" . }}
 
             {{ range .Paginator.Pages }}
-                <div class="row mx-auto my-5" style="max-width: 1000px;">
+                <div class="row mx-auto my-5">
                     <a id="{{.Params.anchor}}"></a>
-                    <div class="col-md-4 m-auto px-sm-0">
-                        <img src="{{ (printf `%s%s` `img/` .Params.thumbnail) | absURL }}" class="card-img" alt=".Params.thumbnailAlt">
-                    </div>
-                    <div class="col-md-8 p-4">
+                    <div class="col-md-8 pr-md-5 p-0">
                         <h3>{{ .Params.title | safeHTML}}</h3>
-                        <h4>{{ .Params.subtitle}}</h4>
-                        {{if .Params.location }}<h5>{{ .Params.location}}</h5>{{end}}
+                        <span class="text-muted">{{ dateFormat "Jan 2006" .Params.date }} -  {{ .Params.subtitle}}</span> 
                         {{ if ne .Params.slidesLink nil }}
-                            <a target="_blank" href="{{.Params.slidesLink}}">Slides</a>
+                            <a target="_blank" href="{{.Params.slidesLink}}">[slides]</a>
                         {{end}}
-                        <div class="card-text text-justify">{{.Content}}</div>
-                        <small class="text-muted">{{ dateFormat "January 2006" .Params.date }}</small>
+                        <div class="card-text text-justify mt-3">{{.Content}}</div>
+                    </div>
+                    <div class="col-md-4 m-auto p-0">
+                        <img src="{{ (printf `%s%s` `img/` .Params.thumbnail) | absURL }}" class="card-img" alt=".Params.thumbnailAlt">
                     </div>
                 </div>
             {{ end }}
@@ -34,5 +32,6 @@
                 <a href="#top">Back to top</a>
             </div>
         </div>
+        {{ partial "footer.html" .}}
 	</body>
 </html>
