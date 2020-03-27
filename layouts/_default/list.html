@@ -10,7 +10,7 @@
             {{ template "partials/pagination.html" . }}
 
             {{ range .Paginator.Pages }}
-                <div class="row mx-auto my-5">
+                <div class="row mx-auto my-5 py-3">
                     <a id="{{.Params.anchor}}"></a>
                     <div class="col-md-8 pr-md-5 p-0">
                         <h3>{{ .Params.title | safeHTML}}</h3>
