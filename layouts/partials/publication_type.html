@@ -8,7 +8,7 @@
         <strong style="color:#6c6c6c">{{.Params.title}}</strong>
         <span class="my-1">{{.Params.authors | safeHTML}}</span>
         <span>
-            <span class="badge badge-primary">{{.Params.year}}</span>
+            <span class="text-muted">{{.Params.year}}</span>
             {{ if eq $class "abstract"}}
                 <span style = "font-style:italic">[{{.Params.typeLabel}}]</span>
             {{end}}
