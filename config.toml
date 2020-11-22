@@ -8,11 +8,21 @@ enableRobotsTXT = true
   hrefTargetBlank = true
 
 [params]
-  mainSections = ["news", "presentations", "projects", "publications"]
+  mainSections = ["blog", "news", "presentations", "projects", "publications"]
+
+  [[params.reviews]]
+  url = "https://chi2021.acm.org/"
+  name = "ACM CHI 2021"
+  times = "1"
 
   [[params.reviews]]
   url = "https://chi2020.acm.org/"
   name = "ACM CHI 2020"
+  times = "1"
+
+  [[params.reviews]]
+  url = "https://www.springer.com/journal/779"
+  name = "Personal and Ubiquitous Computing 2020"
   times = "1"
 
   [[params.reviews]]
@@ -31,13 +41,16 @@ enableRobotsTXT = true
   times = "1"
 
   [[params.alumni]]
-  name = "Huichuan Liu (distinction)"
+  name = "Undergraduate Capstone Course (HCI Program, CMU)"
 
   [[params.alumni]]
-  name = "Fanqi Meng"
+  name = "Huichuan Liu (MSc distinction)"
 
   [[params.alumni]]
-  name = "Heng Zhang"
+  name = "Fanqi Meng (MSc)"
+
+  [[params.alumni]]
+  name = "Heng Zhang (MSc)"
 
   [[params.teaching]]
   url = "https://studentnet.cs.manchester.ac.uk/ugt/2014/COMP33512/syllabus/"
@@ -77,24 +90,30 @@ sectionPagesMenu = "main"
     identifier = "news"
     name = "News"
     url = "/news/"
-    weight = 2
+    weight = 3
 
     [[menu.main]]
     identifier = "publications"
     name = "Publications"
     url = "/publications/"
-    weight = 3
-
-    [[menu.main]]
-    identifier = "presentations"
-    name = "Presentations"
-    url = "/presentations/"
-    weight = 5
+    weight = 4
 
     [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
-    weight = 4
+    weight = 5
+
+    [[menu.main]]
+    identifier = "presentations"
+    name = "Presentations"
+    url = "/presentations/"
+    weight = 6
+
+    [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "https://jvblog.net"
+    weight = 7
 
     
