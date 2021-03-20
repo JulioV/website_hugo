@@ -11,6 +11,11 @@ enableRobotsTXT = true
   mainSections = ["blog", "news", "presentations", "projects", "publications"]
 
   [[params.reviews]]
+  url = "https://dis.acm.org/2021/"
+  name = "ACM DIS 2021"
+  times = "1"
+
+  [[params.reviews]]
   url = "https://chi2021.acm.org/"
   name = "ACM CHI 2021"
   times = "1"
@@ -39,6 +44,9 @@ enableRobotsTXT = true
   url = "https://www.journals.elsevier.com/international-journal-of-human-computer-studies"
   name = "IJHCS 2017"
   times = "1"
+
+  [[params.alumni]]
+  name = "Team of 5-7 software engineers and data scientists"
 
   [[params.alumni]]
   name = "Undergraduate Capstone Course (HCI Program, CMU)"

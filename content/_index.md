@@ -4,7 +4,7 @@ profile: "profile.jpg"
 ---
 I investigate **personalised** methodologies to monitor **chronic conditions** that affect **daily human behaviour** using mobile and wearable data. In the long term, my goal is to explore how we can enable patients to inform, amend, and evaluate their health tracking algorithms to improve disease self-management.
 
-**University of Pittsburgh**. I am working on multiple observational and interventional studies to support people during and after cancer treatment (among other groups). I am a Postdoctoral Research Associate at the [Mobile Sensing + Health Institute](https://www.moshi.pitt.edu/) mentored by [Carissa Low](https://twitter.com/carissa_low).
+**University of Pittsburgh**. I am working on multiple observational and interventional studies to support people during and after cancer treatment (among other groups). I am a Postdoctoral Research Associate and also the Director of Technology at the [Mobile Sensing + Health Institute](https://www.moshi.pitt.edu/) mentored by [Carissa Low](https://twitter.com/carissa_low).
 
 **RAPIDS**. I am the designer and lead developer of the Reproducible Analysis Pipeline for Data Streams ([RAPIDS](http://www.rapids.science/)), an open source pipeline to standardize the data processing, analysis, and evaluation of mobile sensing projects.
 
